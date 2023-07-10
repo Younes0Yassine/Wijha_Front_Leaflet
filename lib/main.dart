@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:map/searchTest.dart';
+import 'map.dart';
+import 'searchTest.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: Map(),
     );
   }
 }
@@ -89,4 +92,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
